@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    tools:context=".CalcActivity">
+
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/quantidade_"
+        android:layout_width="278dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:text="Quantidade de material"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/digite_quan"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Digite quantos kg de material voce deseja vender"
+        android:textAlignment="center"
+        android:textSize="14dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adicione um nome para seu produto" />
+
+    <TextView
+        android:id="@+id/categoria"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="Categoria do produto"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/selecione"
+        android:layout_width="266dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Selecione o seu produto"
+        android:textSize="14dp" />
+
+    <Spinner
+        android:id="@+id/spinner_Calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="Categoria"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPostagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_data" />
+
+    <TextView
+        android:id="@+id/informacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="Coloque essas informações"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+<!--    <com.google.android.material.textfield.TextInputEditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="30dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:inputType="numberDecimal"-->
+<!--        android:id="@+id/input_vezes"-->
+<!--        android:hint="Quantas vezes você usa ?" />-->
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:id="@+id/input_tempo"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:inputType="numberDecimal"
+        android:hint="Tempo usado em horas" />
+
+    <Spinner
+        android:id="@+id/spinner_Estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="Categoria"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPostagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_data" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@color/bg_yellow"
+        android:shadowColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/botton_nav"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:text="Enviar"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botton_nav"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/icon_color"
+        app:itemTextAppearanceActive="@color/icon_color"
+        app:itemTextAppearanceInactive="@color/icon_color"
+        app:itemTextColor="@color/icon_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

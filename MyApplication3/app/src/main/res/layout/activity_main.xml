@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg_yellow"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="192dp"
+        android:layout_height="226dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="92dp"
+        android:src="@drawable/procel_main"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_main"
+        android:layout_marginTop="240dp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_border_main">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="83dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_exit_to_app_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="45dp"
+            android:textColor="@color/text_color_main"
+            android:textStyle="bold"
+            android:layout_marginTop="46dp"
+            android:text="Conheça a Procel e economize na sua conta de luz"
+            android:textSize="24sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="45dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/text_color_main"
+            android:text="Entre com sua conta do google ou com seu e-mail para aproveitar todos os recursos "
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@color/bg_yellow"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Entrar"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

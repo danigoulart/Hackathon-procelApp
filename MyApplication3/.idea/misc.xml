@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.218" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.218" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2015" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_calculator_money.xml" value="0.1" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2015" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_recycle.xml" value="0.1" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_recycle_symbol.xml" value="0.1" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/layout_border_card.xml" value="0.218" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/layout_border_main.xml" value="0.2015" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/layout_main_border.xml" value="0.2015" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_calc.xml" value="0.33" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_contato.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_home.xml" value="0.16" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_home_detalhe.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_quiz.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/fragment_artigos.xml" value="0.33" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/fragment_conheca.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/fragment_guias.xml" value="0.33" />
+        <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/menu/nav_menu.xml" value="0.10092592592592593" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
