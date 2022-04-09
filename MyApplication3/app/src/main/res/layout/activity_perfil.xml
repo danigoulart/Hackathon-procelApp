@@ -95,11 +95,12 @@
         android:layout_marginHorizontal="25dp"
         android:layout_marginBottom="25dp"
         android:background="@color/bg_yellow"
-        android:text="Meus rodutos"
+        android:text="Meus Produtos"
         android:textColor="@color/white"
         android:textSize="15dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/botton_nav" />
+        app:layout_constraintBottom_toTopOf="@id/botton_nav"
+        tools:layout_editor_absoluteX="25dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/botton_nav"

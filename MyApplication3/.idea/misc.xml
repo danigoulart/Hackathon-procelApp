@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Hackathon-ProcelApp/MyApplication3/app/src/main/res/layout/activity_calc.xml" value="0.16576086956521738" />
+        <entry key="..\:/Hackathon-ProcelApp/MyApplication3/app/src/main/res/layout/activity_home.xml" value="0.16576086956521738" />
+        <entry key="..\:/Hackathon-ProcelApp/MyApplication3/app/src/main/res/layout/activity_perfil.xml" value="0.16576086956521738" />
+        <entry key="..\:/Hackathon-ProcelApp/MyApplication3/app/src/main/res/layout/fragment_artigos.xml" value="0.4" />
         <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.218" />
         <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.218" />
         <entry key="..\:/Users/leoac/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2015" />
